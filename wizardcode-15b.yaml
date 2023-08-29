@@ -28,7 +28,7 @@ config_file: |
   - <|end|>
 files:
     - filename: "WizardCoder-15B-1.0.ggmlv3.q4_0.bin"
-      sha256: "b70164bc0b58a472c0987905133735ab3b27e2c439dedf8174a43951c51c3229"
+      sha256: "f36668ddf22403a332f978057d527cf285b01468bc3431b04094a7bafa6aba59"
       uri: "https://huggingface.co/TheBloke/WizardCoder-Guanaco-15B-V1.0-GGML/resolve/main/WizardCoder-15B-1.0.ggmlv3.q4_0.bin"
 
 prompt_templates:
