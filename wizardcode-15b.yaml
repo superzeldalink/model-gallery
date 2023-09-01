@@ -13,7 +13,7 @@ config_file: |
   # Default model parameters
   parameters:
     # Relative to the models path
-    model: WizardCoder-Guanaco-15B-V1.1-GGML
+    model: wizardcoder-guanaco-15b-v1.1.ggmlv1.q4_0.bin
     temperature: 0.9
     top_k: 50
     top_p: 0.95
