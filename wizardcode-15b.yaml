@@ -9,11 +9,11 @@ urls:
 - https://github.com/nlpxucan/WizardLM
 
 config_file: |
-  name: wizardcode13b
+  name: wizardcode15b
   # Default model parameters
   parameters:
     # Relative to the models path
-    model: WizardCoder-15B-1.0.ggmlv3.q4_1.bin
+    model: WizardCoder-Guanaco-15B-V1.1-GGML
     temperature: 0.9
     top_k: 50
     top_p: 0.95
@@ -27,9 +27,9 @@ config_file: |
   - <|endoftext|>
   - <|end|>
 files:
-    - filename: "WizardCoder-15B-1.0.ggmlv3.q4_0.bin"
-      sha256: "f36668ddf22403a332f978057d527cf285b01468bc3431b04094a7bafa6aba59"
-      uri: "https://huggingface.co/TheBloke/WizardCoder-Guanaco-15B-V1.0-GGML/resolve/main/WizardCoder-15B-1.0.ggmlv3.q4_0.bin"
+    - filename: "wizardcoder-guanaco-15b-v1.1.ggmlv1.q4_0.bin"
+      sha256: "508266b55c5ada4702761d194cd19b399e9b5c6bdff2a056d621e69feee7a48a"
+      uri: "https://huggingface.co/TheBloke/WizardCoder-Guanaco-15B-V1.1-GGML/resolve/main/wizardcoder-guanaco-15b-v1.1.ggmlv1.q4_0.bin"
 
 prompt_templates:
 - name: "wizardcode-completion"
