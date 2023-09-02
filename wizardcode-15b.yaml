@@ -26,6 +26,8 @@ config_file: |
   - "<unk>"
   - <|endoftext|>
   - <|end|>
+  gpu_layers: 1
+  f16: true
 files:
     - filename: "wizardcoder-guanaco-15b-v1.1.ggmlv1.q4_0.bin"
       sha256: "508266b55c5ada4702761d194cd19b399e9b5c6bdff2a056d621e69feee7a48a"
